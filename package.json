@@ -1,0 +1,28 @@
+{
+    "version": "0.0.0",
+    "private": true,
+    "name": "angular-races",
+    "description": "",
+    "repository": "https: //github.com/su7edja/races",
+    "license": "MIT",
+    "devDependencies": {
+        "karma": "^0.12.16",
+        "karma-chrome-launcher": "^0.1.4",
+        "karma-jasmine": "^0.1.5",
+        "protractor": "~1.0.0",
+        "http-server": "^0.6.1",
+        "tmp": "0.0.23",
+        "bower": "^1.3.1",
+        "shelljs": "^0.2.6"
+    },
+    "scripts": {
+        "postinstall": "bowerinstall",
+        "start": "http-server-a0.0.0.0-p8000",
+        "test": "nodenode_modules/karma/bin/karmastarttest/karma.conf.js",
+        "test-single-run": "nodenode_modules/karma/bin/karmastarttest/karma.conf.js--single-run",
+        "update-webdriver": "webdriver-managerupdate",
+        "preprotractor": "npmrunupdate-webdriver",
+        "protractor": "protractortest/protractor-conf.js",
+        "update-index-async": "node-e\"require('shelljs/global');sed('-i',/\\/\\/@@NG_LOADER_START@@[\\s\\S]*\\/\\/@@NG_LOADER_END@@/,'//@@NG_LOADER_START@@\\n'+cat('bower_components/angular-loader/angular-loader.min.js')+'\\n//@@NG_LOADER_END@@','app/index-async.html');\""
+    }
+}
