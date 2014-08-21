@@ -15,4 +15,3 @@ class RacesItem(Item):
     location = Field()
     notes = Field()
 
-N
